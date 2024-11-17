@@ -1,0 +1,9 @@
+{% extends "layout.html" %} 
+
+{% block content %}
+        {% if username %}
+        <p>Hello {{ username }}, your age is {{ age }}</p>
+        {% endif %}
+
+        <p>Click <a href="/hello">here</a> to go to the hello page</p>
+{% endblock %}
